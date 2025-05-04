@@ -1,0 +1,14 @@
+{
+  "name": "backend-jobfinder-and-application-automation-platform",
+  "version": "1.0.0",
+  "description": "Backend for jobFinder-and-application-automation-platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suraj M",
+  "license": "ISC",
+  "dependencies": {
+    "backend-jobfinder-and-application-automation-platform": "file:"
+  }
+}
