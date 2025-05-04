@@ -2,13 +2,17 @@
   "name": "backend-jobfinder-and-application-automation-platform",
   "version": "1.0.0",
   "description": "Backend for jobFinder-and-application-automation-platform",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Suraj M",
   "license": "ISC",
   "dependencies": {
     "backend-jobfinder-and-application-automation-platform": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
