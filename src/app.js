@@ -17,12 +17,14 @@ app.use(cookieParser());
 
 // Import routes
 import userRouter from "./routes/userRoutes.js";
+import jobRouter from "./routes/jobRoutes.js";
 
 
 // Routes Declaration
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/jobs", jobRouter);
 
 
 
 
-export default express;
+export default app;
